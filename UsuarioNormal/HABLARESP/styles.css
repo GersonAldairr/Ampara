@@ -1,0 +1,173 @@
+.topheader {
+  position: static;
+  background-color: #fcf8fc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.contenedor-topheader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* evita que se estire demasiado */
+  margin: 0 auto; /* centra el contenido horizontalmente */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo img {
+  height: 100px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.logo h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #482983;
+  margin: 0;
+  margin-left:-70px;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-horizontal li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.btn-sos {
+  background-color: #f0536b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-ingresar {
+  background-color: #482983;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-ingresar::after {
+  content: "›";
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.menu-horizontal li a:hover {
+  color: white;
+  background-color: black;
+}
+
+/*PANTALLA HABLAR ESPECIALISTA*/
+
+.seccion-hablar-esp{
+  background-color: #482983;
+  font-family: 'Poppins',sans-serif;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+  min-height: 100vh;
+}
+
+.div-hablar-esp{
+  color: white;
+  padding: 20px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card{
+  background-color: #FCF8FC;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-header{
+  font-size: 20px;
+  justify-content: left;
+  display: flex;
+  font-weight: 500;
+}
+
+.card-detalle{
+  margin-bottom: 50px;
+  line-height: 1;
+}
+
+.card-detalle p{
+  margin-bottom: -14px;
+}
+
+.btn-chatear-esp {
+
+  background-color: #EFE4F7;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+
+/*FOOTER*/
+.footer {
+  background-color: #482983;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-redes a {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.footer-redes img {
+  width: 18px;
+  height: 18px;
+}
