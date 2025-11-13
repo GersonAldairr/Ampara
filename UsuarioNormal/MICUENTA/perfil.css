@@ -1,0 +1,94 @@
+.inf-personal{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+
+.inf-personal-titulo{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-inf-personal{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 6px 40px;
+    margin: 6px auto;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.contenedor-icono-inf{
+    background-color: #EFE4F7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 999999px;
+    margin-right: 25px;
+}
+
+.contenedor-icono-inf img{
+    width: 40px;
+    height: auto;
+}
+
+.detalle-inf{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.detalle-inf p{
+    line-height: 0.2;
+    color:#909090 ;
+}
+
+.nombre-perfil{
+    color: black;
+}
+
+.btn-editar{
+    justify-content: right;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.editar{
+    margin-left: auto;
+}
+
+/*FAVORITOS*/
+.div-fav{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+
+.fav-titulo{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cards-fav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-fav{
+    background-color: #FFFFFF;
+    padding: 0px 20px;
+    width: 33%;
+    height: auto;
+    font-size: 15px;
+}
+.card-fav-text {
+    color: #909090;
+}
+.card-fav-sub{
+    color: black;
+    font-weight: 500;
+}
